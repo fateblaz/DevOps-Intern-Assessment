@@ -1,0 +1,14 @@
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+*.pem
+*.ppk
+*.key
+*.pub
+sync-system-key 
+
+.env
+*.auto.tfvars
+terraform.tfvars
