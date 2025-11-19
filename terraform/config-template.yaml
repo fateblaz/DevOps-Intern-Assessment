@@ -1,0 +1,12 @@
+
+aws_region: ap-south-1
+primary_instance_id: "<PRIMARY_INSTANCE_ID>"
+secondary_instance_id: "<SECONDARY_INSTANCE_ID>"
+staging_instance_id: "<STAGING_INSTANCE_ID>"
+replica_init_document: "sync-system-replica-init"
+snapshot_document: "sync-system-mongo-snapshot"
+restore_document: "sync-system-mongo-restore"
+admin_ssm_user: "/mongo/admin"
+admin_ssm_password: "/mongo/admin/password"
+snapshot_tag_prefix: "sync-system-mongo-weekly"
+local_wait_seconds_for_snapshot_initiation: 10
