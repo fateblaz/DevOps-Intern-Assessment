@@ -23,7 +23,6 @@ They are securely fetched from SSM Parameter Store `/mongo/admin` and  `/mongo/a
 - `DESIGN.md`
 - `README.md`
 - `runbook.md`
-- `test-report.md`
 - `config-template.yaml` — fill with your environment values
 - `scripts/` — automation scripts and anonymizer
 - `terraform/` — Provision infra files 
@@ -49,4 +48,5 @@ They are securely fetched from SSM Parameter Store `/mongo/admin` and  `/mongo/a
 - Do **not** place production credentials in config files; use SSM parameters as configured in infra.
 - This orchestration reads production: snapshot request only (read-only). It does not mutate production.
 - The anonymizer only runs on staging instance.
+
 
